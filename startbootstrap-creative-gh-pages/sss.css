@@ -1,0 +1,51 @@
+/* Global Styles */
+body, .navbar, .masthead, .page-section {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgb(150, 150, 150);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(80, 79, 79);
+}
+
+/* Buttons */
+.btn-primary, .btn-light {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn-primary:hover, .btn-light:hover {
+    background-color: grey;
+    color: white;
+    border-color: grey;
+}
+
+/* Portfolio Boxes */
+.portfolio-box-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.portfolio-box img {
+    filter: grayscale(100%);
+}
+
+/* About Section */
+.bg-black {
+    background-color: black;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+}
